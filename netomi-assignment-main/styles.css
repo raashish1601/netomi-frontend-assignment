@@ -1,0 +1,63 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-direction: column;
+}
+
+form {
+	padding: 1.5rem;
+	border: 1px solid #ccc;
+	background-color: #ececec;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: none;
+  
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: left;
+	width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+#country,
+#state {
+	background-color: white;
+}
+
+input[type="submit"] {
+	background-color: #037f7b;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+#message {
+	margin-top: 20px;
+	text-align: center;
+	width: 35vw;
+}
+
+#form-iframe {
+	width: 35vw;
+	height: 100vh;
+	border: 1px solid red;
+}
